@@ -9,7 +9,8 @@
 [1]:http://learn.knockoutjs.com/#/?tutorial=intro
 - `index.html`
 
-	```	<html>
+	```
+	<html>
 <head>
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
 </head>
@@ -29,6 +30,7 @@
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
+```
 
 - `main.js`:
 
