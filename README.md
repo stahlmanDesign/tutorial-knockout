@@ -74,7 +74,7 @@ function AppViewModel() {
 
 
 </pre>
-
+<img src="knockout-1.gif"/>
 - you have bound data to the DOM elements and they update upon change:
 
 
