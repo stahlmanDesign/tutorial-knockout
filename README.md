@@ -75,27 +75,3 @@ function AppViewModel() {
 
 </pre>
 <img src="knockout-1.gif"/>
-- you have bound data to the DOM elements and they update upon change:
-
-
-    <!-- This is a *view* - HTML markup that defines the appearance of your UI -->
-    <p>First name: <strong data-bind="text: firstName">Johnny</strong></p>
-    <p>Last name: <strong data-bind="text: lastName">CASH</strong></p>
-    <p>Full name: <strong data-bind="text: fullName">Johnny CASH</strong></p>
-
-    <!-- This is a *view* - HTML markup that defines the appearance of your UI -->
-<hr>
-<label>Name</label>
-<br/>
-    <p>First: <input data-bind="value: firstName"></p>
-    <p>Last: <input data-bind="value: lastName"></p>
-    <button data-bind="click: capitalizeLastName">Toggle caps</button>
-    
-
-    <script type="text/javascript" src="node_modules/knockout/build/output/knockout-latest.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-
-
-
-
-</body>
