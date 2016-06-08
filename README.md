@@ -1,7 +1,14 @@
 # Learning Knockout.js
 
-- Install Knockout.js in new folder with npm `npm install knockout --save`
-	- Didn't work? Requires presence **package.json** file. `npm init` will create one
+## Quick start
+
+- `npm install` to load node modules and knockout.js
+- open `index.html` to see working example
+
+## Make from scratch
+- create a new folder and open it in the terminal
+- `npm init` to create package.json file. Use defaults, can change info later
+- `npm install knockout --save` install Knockout.js to local project with npm, and add to package.json 
 - create html file that loads knockout script
 	`<script type="text/javascript" src="node_modules/knockout/build/output/knockout-latest.js"></script>
 `
