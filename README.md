@@ -1,4 +1,7 @@
 # Learning Knockout.js
+##[Tutorial #1][0] Intro
+
+[0]:http://learn.knockoutjs.com/#/?tutorial=intro
 
 ## Quick start
 
@@ -12,12 +15,12 @@
 - create html file that loads knockout script
 	`<script type="text/javascript" src="node_modules/knockout/build/output/knockout-latest.js"></script>
 `
-- Example based on [tutorial][1]:
-[1]:http://learn.knockoutjs.com/#/?tutorial=intro
-- `index.html`
 
-	```
-	<html>
+
+`index.html`
+
+``` html
+<html>
 <head>
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
 </head>
@@ -39,9 +42,9 @@
 </html>
 ```
 
-- `main.js`:
+`main.js`:
 
-	<pre>
+``` javascript
 // This is a simple *viewmodel* - JavaScript that defines the data and behavior of your UI
 function AppViewModel() {
 
@@ -69,9 +72,9 @@ function AppViewModel() {
     this.isCapitalized = false;
 }
 
-	// Activates knockout.js
-	ko.applyBindings(new AppViewModel());
+// Activates knockout.js
+ko.applyBindings(new AppViewModel());
 
+```
 
-</pre>
 <img src="knockout-1.gif"/>
